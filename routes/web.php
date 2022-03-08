@@ -14,5 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('login');
+    return view('admin/dashboard');
 });
+
+Route::get('/inventaris-listbarang', function () {
+    return view('admin/inventaris-listbarang');
+});
+
+
