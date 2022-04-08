@@ -1,6 +1,7 @@
 .tambah-inventaris{
     float: right;
     display: block;
+    font-weight: 500;
 }
 .input-select{
     font-size: 14px;
@@ -14,8 +15,20 @@
     background:#203239;
     color: white;
     border-radius: 10px;
+    font-size: 14px;
 }
 
-.btn{
+.table tfoot{
+    color: #203239;
+    font-size: 14px;
+}
+
+.table tbody{
+    color: #3A3845;
+}
+
+.button{
     font-size: 20px;
+    font-weight: bold;
+    font-size: 14px;
 }

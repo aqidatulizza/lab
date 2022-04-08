@@ -13,12 +13,17 @@
     <meta name="description" content="This is an example dashboard created using build-in elements and components.">
     <meta name="msapplication-tap-highlight" content="no">
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/aos/aos.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
     <link href="css/admin.css" rel="stylesheet">
-
-    <!-- Custom styles for this page -->
-    <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylep.css">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+        
+    
     <!--
     =========================================================
     * ArchitectUI HTML Theme Dashboard - v1.0.0
@@ -29,7 +34,7 @@
     =========================================================
     * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
     -->
-<link href="css/main.css" rel="stylesheet"></head>
+</head>
 <body>
     <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
         <div class="app-header header-shadow">
@@ -125,7 +130,7 @@
                             <ul class="vertical-nav-menu">
                                 <li class="app-sidebar__heading">Dashboards</li>
                                 <li>
-                                    <a href="{{ url('/') }}" class="mm-active">
+                                    <a href="{{ url('/') }}">
                                     <i class="metismenu-icon fas fa-fw fa-tachometer-alt"></i>
                                         Dashboard
                                     </a>
@@ -214,6 +219,16 @@
 
     <!-- Page level custom scripts -->
     <script src="js/demo/datatables-demo.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="vendor/aos/aos.js"></script>
+    <script src="vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+
+
+    <!-- Template Main JS File -->
+    <script src="js/main.js"></script>
+    <!-- Custom styles for this page -->
+    <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 
 </body>
 </html>

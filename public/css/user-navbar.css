@@ -1,0 +1,24 @@
+body{
+    font-size: 10px;
+    background-color: #f4f4fe;
+}
+
+.logo{
+    height: 50px;
+}
+
+.img-profile{
+    height: 40px;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0) !important;
+    border-color: rgba(0, 0, 0, 0) !important;
+}
+
+.navbar-user{
+    background-color: #fff;
+    font-weight:500;
+}
+
+    

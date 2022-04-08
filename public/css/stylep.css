@@ -1,0 +1,120 @@
+
+
+.div1{
+    background-color: #f4f4fe;
+    padding-bottom: 30px;
+    height: 100%;
+}
+#div2{
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    color: #524A4E; 
+    width: 100%;
+    padding-bottom: 30px;
+}
+#ruangan{
+    margin-left: 10px;
+    width: 25%;
+    border-color: grey;
+    border-radius: 3px;
+}
+.row{
+    padding: 0px 25px;
+}
+#peminjaman{
+    padding: 30px 0px 0px 25px;
+    font-size: 24px;
+}
+#peminjaman h4{
+    padding-left: 15px;
+}
+#ruanglab{
+    margin-bottom: -5px;
+}
+#ruanglab label{
+    font-size: 15px;
+}
+
+#div3{
+    background-color: #f4f4fe;
+    margin: 20px 30px 0px 30px;
+    border-radius: 10px 10px 10px 10px;
+    border-left: 15px solid #c0143e;
+    height: 100px;
+    box-shadow: 1px 3px 8px 1px rgba(0,0,0,.1);
+}
+#div3 h6{
+    font-weight: bold;  
+    color: black; 
+    padding-right: 7px;
+}
+#div3 div{
+    padding: 15px 0px 0px 15px;
+    font-weight: bold;  
+    color: black; 
+}
+#div4{
+    background-color: #f4f4fe;
+    margin: 20px 30px 0px 30px;
+    border-radius: 10px 10px 10px 10px;
+    border-left: 15px solid #c0143e;
+    height: auto;
+    box-shadow: 1px 3px 8px 1px rgba(0,0,0,.1);
+}
+#div4 h6{
+    font-weight: bold;  
+    color: black; 
+    padding-right: 7px;
+}
+#div4 div{
+    padding: 15px 0px 0px 15px;
+    font-weight: bold;  
+    color: black; 
+}
+#div5 div{
+    background-color: #c4c4c4;
+    padding: 3px 9px 3px 9px;
+}
+#div6{
+    margin-bottom: 10px;
+}
+#div6 button{
+    height: 30px;
+    width: 75px;
+    border-radius: 7px 7px 7px 7px;
+    background-color: #4fc882;
+    color: rgb(238, 238, 238);
+    border: 0px;
+    font-size: 17px;
+}
+.tpeminjaman{
+    padding: 30px 50px;
+    
+}
+.tpeminjaman thead{
+    background: #f4f4fe;
+    font-size: 15px;
+    border-color: grey;
+    color: #524A4E;
+} 
+
+.tpeminjaman tbody{
+    font-size: 14px;
+}
+
+table.table-striped > thead > tr > th{
+    border:none;
+}
+
+.tpeminjaman tbody button{
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.tpeminjaman tbody button:focus{
+    box-shadow: none;
+}
+
+
+

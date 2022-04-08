@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <div class="login">
-            <form action="">
+            <form action="{{ url('/user-peminjaman') }}">
                 <div class="tang">
                     <img src="images/tang.png" alt="">
                 </div>
@@ -33,7 +33,7 @@
                     <a href="">Lupa Password?</a>
                 </div>
                 
-                <button>Masuk</button>
+                <button type="submit">Masuk</button>
             </form>
         </div>
         <div class="right">

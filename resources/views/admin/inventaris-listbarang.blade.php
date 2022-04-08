@@ -13,24 +13,24 @@
                                 <div class="table-responsive">
                                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                         <thead class="head-table">
-                                            <tr>
+                                            <tr class="text-center">
                                                 <th>ID Barang</th>
                                                 <th>Nama Barang</th>
                                                 <th>Merk</th>
                                                 <th>Tahun</th>
                                                 <th>Jumlah</th>
-                                                <th class="text-center">Action</th>
+                                                <th>Action</th>
                                                 
                                             </tr>
                                         </thead>
                                         <tfoot>
-                                            <tr>
+                                            <tr class="text-center">
                                                 <th>ID Barang</th>
                                                 <th>Nama Barang</th>
                                                 <th>Merk</th>
                                                 <th>Tahun</th>
                                                 <th>Jumlah</th>
-                                                <th class="text-center">Action</th>
+                                                <th>Action</th>
                                             </tr>
                                         </tfoot>
                                         <tbody>
@@ -69,42 +69,60 @@
             <div class="modal-body">
                 <form>
                     <div class="form-group row">
-                        <label for="inputEmail3" class="col-sm-2 col-form-label">ID Barang</label>
+                        <label for="idbarang" class="col-sm-2 col-form-label">ID Barang</label>
                         <div class="col-sm-10">
                         <input type="text" class="form-control" id="idbarang">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="inputPassword3" class="col-sm-2 col-form-label">Nama Barang</label>
+                        <label for="idruangan" class="col-sm-2 col-form-label">ID Ruangan</label>
+                        <div class="col-sm-10">
+                            <select class="input-select custom-select mr-sm-2" id="keterangan">
+                                <option selected>Pilih</option>
+                                <option value="1">RPL</option>
+                                <option value="2">TKJ</option>
+                                <option value="3">MM</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="namabarang" class="col-sm-2 col-form-label">Nama Barang</label>
                         <div class="col-sm-10">
                         <input type="text" class="form-control" id="namabarang">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="inputEmail3" class="col-sm-2 col-form-label">Merk</label>
+                        <label for="merk" class="col-sm-2 col-form-label">Merk</label>
                         <div class="col-sm-10">
                         <input type="text" class="form-control" id="merk">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="inputPassword3" class="col-sm-2 col-form-label">Tahun</label>
+                        <label for="tahun" class="col-sm-2 col-form-label">Tahun</label>
                         <div class="col-sm-10">
                         <input type="text" class="form-control" id="tahun">
                         </div>
-                    </div><div class="form-group row">
-                        <label for="inputEmail3" class="col-sm-2 col-form-label">Jumlah</label>
+                    </div>
+                    <div class="form-group row">
+                        <label for="jumlah" class="col-sm-2 col-form-label">Jumlah</label>
                         <div class="col-sm-10">
                         <input type="text" class="form-control" id="jumlah">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="inputPassword3" class="col-sm-2 col-form-label">Harga</label>
+                        <label for="stoksekarang" class="col-sm-2 col-form-label">Stok Sekarang</label>
+                        <div class="col-sm-10">
+                        <input type="text" class="form-control" id="jumlah">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="harga" class="col-sm-2 col-form-label">Harga</label>
                         <div class="col-sm-10">
                         <input type="text" class="form-control" id="harga">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="inputEmail3" class="col-sm-2 col-form-label">Keadaan</label>
+                        <label for="keadaan" class="col-sm-2 col-form-label">Keadaan</label>
                         <div class="col-sm-10">
                             <select class="input-select custom-select mr-sm-2" id="keadaan">
                                 <option selected>Pilih</option>
@@ -115,7 +133,7 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="inputPassword3" class="col-sm-2 col-form-label">Keterangan</label>
+                        <label for="keterangan" class="col-sm-2 col-form-label">Keterangan</label>
                         <div class="col-sm-10">
                             <select class="input-select custom-select mr-sm-2" id="keterangan">
                                 <option selected>Pilih</option>
@@ -150,42 +168,59 @@
             <div class="modal-body">
                 <form>
                     <div class="form-group row">
-                        <label for="inputEmail3" class="col-sm-2 col-form-label">ID Barang</label>
+                        <label for="idbarang" class="col-sm-2 col-form-label">ID Barang</label>
                         <div class="col-sm-10">
                         <input type="text" class="form-control" id="idbarang" readonly>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="inputPassword3" class="col-sm-2 col-form-label">Nama Barang</label>
+                        <label for="idruangan" class="col-sm-2 col-form-label">ID Ruangan</label>
+                        <div class="col-sm-10">
+                            <select class="input-select custom-select mr-sm-2" id="keterangan">
+                                <option selected>Pilih</option>
+                                <option value="1">RPL</option>
+                                <option value="2">TKJ</option>
+                                <option value="3">MM</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="namabarang" class="col-sm-2 col-form-label">Nama Barang</label>
                         <div class="col-sm-10">
                         <input type="text" class="form-control" id="namabarang">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="inputEmail3" class="col-sm-2 col-form-label">Merk</label>
+                        <label for="merk" class="col-sm-2 col-form-label">Merk</label>
                         <div class="col-sm-10">
                         <input type="text" class="form-control" id="merk">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="inputPassword3" class="col-sm-2 col-form-label">Tahun</label>
+                        <label for="tahun" class="col-sm-2 col-form-label">Tahun</label>
                         <div class="col-sm-10">
                         <input type="text" class="form-control" id="tahun">
                         </div>
                     </div><div class="form-group row">
-                        <label for="inputEmail3" class="col-sm-2 col-form-label">Jumlah</label>
+                        <label for="jumlah" class="col-sm-2 col-form-label">Jumlah</label>
                         <div class="col-sm-10">
                         <input type="text" class="form-control" id="jumlah">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="inputPassword3" class="col-sm-2 col-form-label">Harga</label>
+                        <label for="stoksekarang" class="col-sm-2 col-form-label">Stok Sekarang</label>
+                        <div class="col-sm-10">
+                        <input type="text" class="form-control" id="stoksekarang">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="harga" class="col-sm-2 col-form-label">Harga</label>
                         <div class="col-sm-10">
                         <input type="text" class="form-control" id="harga">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="inputEmail3" class="col-sm-2 col-form-label">Keadaan</label>
+                        <label for="keadaan" class="col-sm-2 col-form-label">Keadaan</label>
                         <div class="col-sm-10">
                             <select class="input-select custom-select mr-sm-2" id="keadaan">
                                 <option selected>Pilih</option>
@@ -196,7 +231,7 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="inputPassword3" class="col-sm-2 col-form-label">Keterangan</label>
+                        <label for="keterangan" class="col-sm-2 col-form-label">Keterangan</label>
                         <div class="col-sm-10">
                             <select class="input-select custom-select mr-sm-2" id="keterangan">
                                 <option selected>Pilih</option>
@@ -211,7 +246,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
-                <button type="button" class="btn btn-primary">Tambah</button>
+                <button type="button" class="btn btn-primary">Edit</button>
             </div>
         </div>
     </div>
