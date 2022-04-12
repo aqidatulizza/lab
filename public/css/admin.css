@@ -2,6 +2,7 @@
     float: right;
     display: block;
     font-weight: 500;
+    border-radius: 10px;
 }
 .input-select{
     font-size: 14px;
@@ -16,7 +17,10 @@
     color: white;
     border-radius: 10px;
     font-size: 14px;
+    
 }
+
+
 
 .table tfoot{
     color: #203239;
@@ -32,3 +36,16 @@
     font-weight: bold;
     font-size: 14px;
 }
+
+.app-main{
+    background-color: #f1f4f6;
+}
+
+.button-plus{
+    padding: 4px;
+}
+
+.modal-footer button{
+    font-weight: 500;
+}
+

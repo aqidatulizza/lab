@@ -17,8 +17,8 @@ Route::get('/', function () {
     return view('login');
 });
 
-Route::get('/inventaris-listbarang', function () {
-    return view('admin/inventaris-listbarang');
+Route::get('/admin-inventaris', function () {
+    return view('admin/inventaris');
 });
 
 Route::get('/user-peminjaman', function () {
@@ -30,7 +30,23 @@ Route::get('/user-pengembalian', function () {
 });
 
 Route::get('/admin-laporan', function () {
-    return view('admin/index');
+    return view('admin/laporan');
+});
+
+Route::get('/admin-ruangan', function () {
+    return view('admin/ruangan');
+});
+
+Route::get('/admin-jadwal', function () {
+    return view('admin/jadwal');
+});
+
+Route::get('/admin-dashboard', function () {
+    return view('admin/dashboard');
+});
+
+Route::get('/admin-user', function () {
+    return view('admin/user');
 });
 
 

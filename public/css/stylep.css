@@ -91,12 +91,18 @@
     padding: 30px 50px;
     
 }
-.tpeminjaman thead{
+table thead{
     background: #f4f4fe;
     font-size: 15px;
-    border-color: grey;
+    border-color: white;
     color: #524A4E;
+    border-radius: 20px;
+    margin-bottom: 5px !important;
 } 
+
+
+
+
 
 .tpeminjaman tbody{
     font-size: 14px;

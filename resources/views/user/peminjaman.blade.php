@@ -10,15 +10,26 @@
                 
                     
             </div>
+            
             <div class="row pt-3 pb-2" id="ruanglab">
                 <label for="ruangan">Ruang Lab.</label>
             </div>
             <div class="row">
-                <select class="custom-select custom-select-sm" name="ruangan" id="ruangan">
+                <div class="dropdown">
+                    <button class="btn btn-sm dropdown-toggle" style="background-color:white; border: 2px solid grey;" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Pilih Ruangan                                                                                                                                                      &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                    </button>
+                    <ul class="dropdown-menu" style="font-size:14px" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Lab RPL 1</a></li>
+                    <li><a class="dropdown-item" href="#">Lab RPL 2</a></li>
+                    <li><a class="dropdown-item" href="#">Lab RPL 3</a></li>
+                    </ul>
+                </div>
+                <!--<select class="custom-select custom-select-sm" name="ruangan" id="ruangan">
                     <option selected>Pilih Ruang</option>
                     <option value="Lab RPL 1">Lab RPL 1</option>
                     <option value="Lab RPL 2">Lab RPL 2</option>
-                </select>
+                </select>-->
             </div>
 
             <div class="tpeminjaman ">
@@ -60,6 +71,7 @@
                         </tr>
                     </tbody>
                 </table>
+
             </div>
 
              

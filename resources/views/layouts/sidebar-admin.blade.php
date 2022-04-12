@@ -130,48 +130,66 @@
                             <ul class="vertical-nav-menu">
                                 <li class="app-sidebar__heading">Dashboards</li>
                                 <li>
-                                    <a href="{{ url('/') }}">
+                                    <a href="{{ url('/admin-dashboard') }}">
                                     <i class="metismenu-icon fas fa-fw fa-tachometer-alt"></i>
                                         Dashboard
                                     </a>
                                 </li>
 
                                 <li>
+                                    <a href="{{ url('/admin-user') }}">
+                                    <i class="metismenu-icon fas fa-solid fa-user"></i>
+                                        User
+                                    </a>
+                                </li>
+
+                                <li>
                                     <a href="#">
                                     <i class="metismenu-icon fas fa-solid fa-briefcase "></i>
-                                        Inventaris
+                                        Barang
                                         <i class="metismenu-state-icon fas fa-solid fa-angle-down caret-left"></i>
                                     </a>
                                     <ul>
                                         <li>
-                                            <a href="{{ url('/inventaris-listbarang') }}">
+                                            <a href="{{ url('/admin-inventaris') }}">
                                                 <i class="metismenu-icon"></i>
-                                                List Barang 
+                                                Inventaris 
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="">
+                                            <a href="#">
                                                 <i class="metismenu-icon">
                                                 </i>Peminjaman 
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="">
+                                            <a href="#">
                                                 <i class="metismenu-icon">
                                                 </i>Pengembalian
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="">
+                                            <a href="{{ url('/admin-ruangan') }}">
                                                 <i class="metismenu-icon">
-                                                </i>Selesai
+                                                </i>Ruangan
                                             </a>
                                         </li>
-                                        
+                                        <li>
+                                            <a href="#">
+                                                <i class="metismenu-icon">
+                                                </i>Barang Masuk
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="metismenu-icon">
+                                                </i>Barang Keluar
+                                            </a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <a href="{{ url('/admin-laporan') }}">
                                     <i class="metismenu-icon fas fa-solid fa-file"></i>
                                         Laporan
                                     </a>
@@ -180,7 +198,7 @@
                                 <hr>
 
                                 <li>
-                                    <a href="">
+                                    <a href="#">
                                     <i class="metismenu-icon fas fa-solid fa-arrow-left"></i>
                                         Keluar
                                     </a>
