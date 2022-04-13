@@ -31,14 +31,14 @@
               <a class="nav-link" href="{{ url('/user-riwayat') }}">Riwayat</a>
             </li>
           </ul>
-          <form class="d-flex">
+          <form class="d-flex ">
           <ul class="navbar-nav me-auto mb-2 mr-4 mb-lg-0">
             
             <li class="nav-item dropdown">
             
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle mt-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Nama Kamu
-              <img class="img-profile rounded-circle ml-2" src="images/apip.png" alt="user">
+              <img class="img-profile rounded-circle ml-2" src="images/profile.jpg" alt="user">
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="#">Logout</a></li>

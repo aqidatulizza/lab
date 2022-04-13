@@ -18,7 +18,6 @@
                         <th scope="col">No</th>
                         <th scope="col">Nama Barang</th>
                         <th scope="col">Ruangan</th>
-                        <th scope="col">Jumlah</th>
                         <th scope="col">Merk</th>
                         <th scope="col" class="text-center">Tindakan</th>
                         </tr>
@@ -28,7 +27,6 @@
                         <td>1</td>
                         <td>Keyboard</td>
                         <td>Lab RPL 1</td>
-                        <td>28</td>
                         <td>Samsung</td>
                         <td class="text-center"><button type="button" class="b-pinjam btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#kembalikan">Kembalikan</button></td>
                         </tr>
@@ -80,12 +78,6 @@
                         <label for="namaruangan" class="col-sm-4 col-form-label">Merk </label>
                         <div class="col-sm-8">
                         <input type="text" readonly class="form-control-plaintext pl-1" id="staticEmail" value="Samsung">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="namaruangan" class="col-sm-4 col-form-label">Jumlah Pinjam </label>
-                        <div class="col-sm-8">
-                        <input type="text" readonly class="form-control-plaintext pl-1" id="staticEmail" value="28">
                         </div>
                     </div>
                     <div class="form-group row">

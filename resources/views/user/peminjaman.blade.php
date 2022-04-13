@@ -64,7 +64,7 @@
              
         </div>
         <div class="laporan">
-        <button type="button" class="button-laporan btn btn-danger" data-bs-toggle="modal" data-bs-target="#laporan"><i class="button-plus fas fa-solid fa-exclamation fa-lg m-2"></i></button>
+        <button type="button" class="button-laporan btn btn-danger" data-bs-toggle="modal" data-bs-target="#laporan"><i class="button-plus fas fa-solid fa-exclamation fa-xl m-2"></i></button>
         </div>
         
     </div>
