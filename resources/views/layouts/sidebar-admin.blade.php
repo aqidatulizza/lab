@@ -157,13 +157,13 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="{{ url('/admin-peminjaman') }}">
                                                 <i class="metismenu-icon">
                                                 </i>Peminjaman 
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="{{ url('/admin-pengembalian') }}">
                                                 <i class="metismenu-icon">
                                                 </i>Pengembalian
                                             </a>
@@ -187,6 +187,12 @@
                                             </a>
                                         </li>
                                     </ul>
+                                </li>
+                                <li>
+                                    <a href="{{ url('/admin-jadwal') }}">
+                                    <i class="metismenu-icon fas fa-solid fa-calendar"></i>
+                                        Jadwal
+                                    </a>
                                 </li>
                                 <li>
                                     <a href="{{ url('/admin-laporan') }}">

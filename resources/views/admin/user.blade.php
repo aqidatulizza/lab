@@ -2,7 +2,7 @@
 
 @section('content')
 
-<h1 class="h3 mb-2 text-gray-800 mb-2">User</h1>
+<h1 class="h3 mb-2 text-gray-800 mb-2"><i class="metismenu-icon fas fa-solid fa-user"></i> User</h1>
     <button type="button" class="tambah-inventaris btn mr-2 mb-2 btn-primary" data-toggle="modal" data-target="#exampleModal"><i class="button-plus fas fa-solid fa-plus"></i></button>
                     <br>
                         <div class="card shadow mb-4 mt-4">

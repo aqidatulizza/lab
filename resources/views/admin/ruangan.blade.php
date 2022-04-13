@@ -92,10 +92,10 @@
                         <input type="text" class="form-control" id="namaruangan">
                         </div>
                     </div>
-            <div class="modal-footer" style="background: #fff">
-                <button type="button" class="btn-modal btn btn-secondary" data-dismiss="modal">Batal</button>
-                <button type="button" class="btn-modal btn btn-primary">Tambah</button>
-            </div>
+                    <div class="modal-footer" style="background: #fff">
+                        <button type="button" class="btn-modal btn btn-secondary" data-dismiss="modal">Batal</button>
+                        <button type="button" class="btn-modal btn btn-primary">Lapor</button>
+                    </div>
                 </form>
             </div>
             

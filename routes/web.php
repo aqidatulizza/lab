@@ -45,8 +45,20 @@ Route::get('/admin-dashboard', function () {
     return view('admin/dashboard');
 });
 
+Route::get('/admin-peminjaman', function () {
+    return view('admin/peminjaman');
+});
+
+Route::get('/admin-pengembalian', function () {
+    return view('admin/pengembalian');
+});
+
 Route::get('/admin-user', function () {
     return view('admin/user');
+});
+
+Route::get('/user-riwayat', function () {
+    return view('user/riwayat');
 });
 
 

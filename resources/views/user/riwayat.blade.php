@@ -1,69 +1,49 @@
-@extends('layouts.sidebar-admin')
+@extends('layouts.navbar')
 
-@section('content')
-
-<h1 class="title h3 mb-1 text-gray-800">Peminjaman</h1>
+@section('content')            
+    <div class="div1">
         <br>
-                        <div class="card shadow mb-4 mt-4">
-                           
-                            <div class="card-body">
-                                <div class="table-responsive">
-                                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                        <thead class="head-table">
-                                            <tr class="text-center">
-                                                <th style="width:5%">No</th>
-                                                <th>ID User</th>
-                                                <th>ID Barang</th>
-                                                <th>Nama Barang</th>
-                                                <th>Ruangan</th>
-                                                <th>Merk</th>
-                                                <th>Stok</th>
-                                                <th>Tanggal Peminjaman</th>
-                                                <th>Jumlah Peminjaman</th>
-                                                <th>Status</th>
-                                                <th>Action</th>
-                                            </tr>
-                                        </thead>
-                                        <tfoot>
-                                            <tr class="text-center">
-                                                <th>No</th>
-                                                <th>ID User</th>
-                                                <th>ID Barang</th>
-                                                <th>Nama Barang</th>
-                                                <th>Ruangan</th>
-                                                <th>Merk</th>
-                                                <th>Stok</th>
-                                                <th>Tanggal Peminjaman</th>
-                                                <th>Jumlah Peminjaman</th>
-                                                <th>Status</th>
-                                                <th>Action</th>
-                                            </tr>
-                                        </tfoot>
-                                        <tbody>
-                                            <tr class="data-table">
-                                                <td class="text-center">1</td>
-                                                <td>2</td>
-                                                <td>3</td>
-                                                <td>Keyboard</td>
-                                                <td>Lab RPL 1</td>
-                                                <td>Samsung</td>
-                                                <td>28</td>
-                                                <td>2/1/2021</td>
-                                                <td>10</td>
-                                                <td>Dipinjam</td>
-                                                <td class="text-center">
-                                                <button type="button" class="b-pinjam btn btn-success btn-sm mb-1" data-bs-toggle="modal" data-bs-target="#kembalikan">Kembalikan</button>
-                                                    <button type="button" class="btn btn-danger"><i class="fas fa-solid fa-trash"></i></button>
-                                                </td>
-                                            </tr>
-                                            
-                                            
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div> 
+        <div class="container" id="div2">
+            <div class="row" id="peminjaman">
+            <div style=”text-align:justify;width:75%; padding:8px;”>
+            <i class="fa-solid fa-suitcase" style="font-size: 25px; padding-right: 10px; color: #167ee6;"></i>Riwayat</div>
+                
+                    
+            </div>
 
+            <div class="tpeminjaman ">
+                <table class="table table-striped">
+                    <thead class="text-center">
+                        <tr>
+                        <th scope="col">No</th>
+                        <th scope="col">Nama Barang</th>
+                        <th scope="col">Merk</th>
+                        <th scope="col">Ruangan</th>
+                        <th scope="col">Tanggal</th>
+                        <th scope="col" style="width:10%">Jumlah Peminjaman</th>
+                        <th scope="col" style="width:10%">Jumlah Pengembalian</th>
+                        <th scope="col">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr>
+                        <td>1</td>
+                        <td>Keyboard</td>
+                        <td>Samsung</td>
+                        <td>Lab RPL 1</td>
+                        <td>2/2/2022</td>
+                        <td>28</td>
+                        <td>21</td>
+                        <td>Sudah Dikembalikan (Kurang)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+             
+        </div>
+    </div>
+  
 @endsection
 
 <!-- Modal Pengembalian-->
@@ -139,4 +119,3 @@
     </div>
   </div>
 </div>
-                   
